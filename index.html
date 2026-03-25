@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Special+Elite|Aldrich">
   <link rel="stylesheet" href="estilos.css">
   <link rel="shortcut icon" href="imgs/favicon.png">
+  <script src="boos.js"></script>
 </head>
 
 <body>
@@ -109,12 +110,6 @@
         </h2>
       </div>
     </section>
-
-    <section id="boos">
-      <img class="boo" src="/imgs/boo1.gif" alt="Fantasma Boo 1">
-      <img class="boo" src="/imgs/boo2.gif" alt="Fantasma Boo 2">
-      <img class="boo" src="/imgs/boo3.gif" alt="Fantasma Boo 3">
-    </section>
   </main>
 
   <footer id="rodape">
@@ -127,6 +122,12 @@
           Canal Assombrado</a> do Youtube e do blog
         <a href="http://assombrado.com.br" target="_blank">AssombradO.com.br</a>
       </p>
+
+      <section id="boos">
+        <img class="boo boo1" src="imgs/boo1.gif" alt="Fantasma Boo 1">
+        <img class="boo boo2" src="imgs/boo2.gif" alt="Fantasma Boo 2">
+        <img class="boo boo3" src="imgs/boo3.gif" alt="Fantasma Boo 3">
+      </section>
 
       <h3>Inscreva-se!</h3>
       <section id="inscreva-se">
@@ -148,7 +149,7 @@
 
   <script>
     // faz o vídeo desaparecer de leve assim que terminar
-    const TEMPO = 11;  // 11s, duração do vídeo
+    const TEMPO = 11000;  // 11s, duração do vídeo
     setTimeout(() => {
       // faz o vídeo desaparecer colocando a classe .desaparecido
       document.querySelector('.backdrop').classList.add('desaparecido');
