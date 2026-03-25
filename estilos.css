@@ -157,7 +157,7 @@ li {
   background-color: black;
   background-image: url(imgs/mula.webp);
   background-repeat: no-repeat;
-  background-size: 300px;
+  background-size: cover;
   box-shadow: -4px 0 10px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
@@ -200,6 +200,12 @@ li {
 
 #rodape .logo-rodape {
   margin-right: 2em;
+}
+
+#inscreva-se {
+  display: flex;
+  align-items: center;
+  gap: 15px;
 }
 
 
