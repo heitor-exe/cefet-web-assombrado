@@ -179,6 +179,7 @@ li {
   text-shadow: 1px 1px black;
 }
 
+
 .tag-2 {
   font-size: 125%;
 }
@@ -187,8 +188,19 @@ li {
   font-size: 150%;
 }
 
+.tag-1:hover,
+.tag-2:hover,
+.tag-3:hover {
+  cursor: pointer;
+}
 
-
+.tag-1:active,
+.tag-2:active,
+.tag-3:active {
+  position: relative;
+  top: -2px;
+  left: -2px;
+}
 
 
 /* --- Rodapé --- */
