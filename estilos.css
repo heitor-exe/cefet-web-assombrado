@@ -243,8 +243,22 @@ li {
   gap: 15px;
 }
 
+#boos {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
 
+}
 
+.boo {
+  opacity: 0.3;
+  width: 100px;
+  transition: opacity .3s ease;
+}
+
+.boo:hover {
+  opacity: 1;
+}
 
 
 /* --- Vídeo --- */
